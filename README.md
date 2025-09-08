@@ -1,2 +1,55 @@
-# Edge-powered-Skin-Disease-Classification-and-Anomaly-Detection-with-GAN
-DERM-AI: Edge-Powered Skin Disease Classification & Anomaly Detection  DERM-AI is a next-generation edge-computing, semi-supervised AI system that turns smartphones into intelligent diagnostic assistants for skin health. Built with MobileNetV2 and a GAN-based anomaly detection pipeline, it empowers users to get reliable, privacy-preserving dermatological insights — even in areas with no internet connectivity.  ⚙️ Key Features  📊 99% Classification Accuracy – Optimized MobileNetV2 architecture for four common conditions: Acne, Ringworm, Nail Fungus, Athlete’s Foot.  🤖 GAN-based Anomaly Detection – Flags unknown or rare conditions with a 75.7% F1-score for early intervention.  📱 Edge Deployment – INT8 quantization reduces model size by 90%, enabling real-time offline predictions.  🔒 Privacy-First – All processing happens on-device with secure authentication.  🌐 Cross-Platform – Built with Flutter + TFLite for Android (iOS support planned).  🌍 Why It Matters  Millions lack access to dermatologists. DERM-AI bridges the gap by providing:  📌 Early detection of common and emerging skin conditions  🚑 Decision support for rural clinics and underserved communities  🔬 Adaptive learning to keep up with evolving health trends  🚀 Vision  DERM-AI lays the groundwork for AI-driven point-of-care diagnostics across multiple medical domains — pushing healthcare accessibility to a global scale.  🛠️ Tech Stack  Machine Learning: Python, TensorFlow, MobileNetV2, GANomaly, Scikit-learn  Edge AI: TFLite (INT8 Quantization)  Visualization: NumPy, Matplotlib  Mobile App: Flutter, Dart, Android Studio
+# 🌱 DERM-AI: Edge-Powered Skin Disease Classification & Anomaly Detection
+
+DERM-AI is a **semi-supervised, edge-computing AI system** that transforms smartphones into intelligent dermatology assistants.  
+Built with **MobileNetV2** and **GAN-based anomaly detection**, DERM-AI provides **offline, privacy-preserving, real-time skin disease classification** — enabling accessible healthcare for everyone, everywhere.
+
+---
+
+## 📌 Features
+
+✅ **High Accuracy:**
+
+- 99% classification accuracy on four common conditions: **Acne, Ringworm, Nail Fungus, Athlete’s Foot**
+
+✅ **Anomaly Detection:**
+
+- GAN-based system with **75.7% F1-score**, flags rare/unknown conditions for further consultation
+
+✅ **Edge AI Deployment:**
+
+- INT8 quantization reduces model size by **90%**
+- Runs **fully offline** on-device, preserving privacy
+
+✅ **Cross-Platform Support:**
+
+- Built with **Flutter + TFLite** for smooth performance
+- Android ready (iOS support planned)
+
+✅ **Privacy & Security:**
+
+- All data stays **on-device**
+- Secure authentication flow for user safety
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer                        | Tools & Frameworks                        |
+| ---------------------------- | ----------------------------------------- |
+| **ML Model**                 | Python, TensorFlow, MobileNetV2, GANomaly |
+| **Preprocessing & Training** | NumPy, Pandas, Matplotlib, Scikit-learn   |
+| **Deployment**               | TensorFlow Lite (INT8 Quantization)       |
+| **Mobile App**               | Flutter, Dart, Android Studio             |
+| **Security**                 | Firebase Auth (Optional)                  |
+
+---
+
+## 📂 Project Structure
+
+```bash
+DERM-AI/
+│
+├── notebooks/              # Jupyter notebooks for training & evaluation
+├── app/                    # Flutter mobile application
+└── README.md
+```

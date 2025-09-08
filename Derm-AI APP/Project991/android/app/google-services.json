@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49454856390",
+    "project_id": "dermai-4a57d",
+    "storage_bucket": "dermai-4a57d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49454856390:android:06b1d878892b8d51497fc7",
+        "android_client_info": {
+          "package_name": "com.example.project991"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49454856390-9cnddd2u42r2b8uv3j37k8c3p6kmfucp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjZPJYh1nHkHZDUieAsf7P_iR7Jyph8cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49454856390-9cnddd2u42r2b8uv3j37k8c3p6kmfucp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
